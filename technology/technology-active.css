@@ -8,7 +8,7 @@ a {
 }
 body {
     background-size: 600%, 200%;
-    background-image: url(/assets/technology/background-technology-desktop.jpg);
+    background-image: url("main/Integration-n-1/assets/technology/background-technology-desktop.jpg");
     background-repeat: no-repeat;
 }
 header {
