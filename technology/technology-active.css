@@ -1,0 +1,222 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+}
+body {
+    background-size: 600%, 200%;
+    background-image: url(/assets/technology/background-technology-desktop.jpg);
+    background-repeat: no-repeat;
+}
+header {
+    width: 95%;
+    margin: auto;
+    height: 100px;
+    margin-top: 40px;
+}
+#container-header {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+.element-header:nth-child(1) {
+    width: 50px;
+    height: 50px;
+}
+.element-header:nth-child(2) {
+    width: 850px;
+    border-top: 0.1px solid white;
+    margin-left: 50px ;
+}
+.element-header:nth-child(3) {
+    width: 800px;
+    height: 100%;
+    display: flex;
+    background: rgba(255, 255, 255, .1);
+}
+.menu-header {
+    display: flex;
+    align-items: center;
+    margin-left: 124px;
+    width: 600px;
+    justify-content: space-between;
+}
+.menu-header a {
+    font-size: 16px;
+    letter-spacing: 3px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Barlow Condensed";
+    text-decoration: none;
+}
+.menu-header a:nth-child(4) {
+    text-decoration: underline;
+    text-underline-offset: 40px;
+    text-decoration-thickness: 3px;
+}
+.menu-header a:hover {
+    text-decoration: underline;
+    text-decoration-color: rgba(255, 255, 255, 0.5);
+    text-underline-offset: 40px;
+    text-decoration-thickness: 3px;
+}
+#container-section {
+    width: 85%;    
+    margin: auto;
+    height: 80px;
+    margin-top: 75px;
+}
+.header-section {
+    width: 100%;
+    height: 100%;
+    margin-bottom: 100px;
+    display: flex;
+    align-items: center;
+}
+.titre-header-section {
+    font-size: 28px;
+    letter-spacing: 5px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Barlow Condensed";
+}
+.container-element {
+    display: flex;
+    justify-content: space-between;
+}
+.element {
+    height: 530px;
+}
+.element:nth-child(1) {
+    display: flex;
+    width: 45%;
+    height: 300px;
+}
+.sommaire {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 300px;
+    margin: auto;
+    margin-bottom: 50px;
+}
+.rond {
+    width: 80px;
+    height: 80px;
+    border: 0.5px solid white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: red;
+}
+.rond:hover {
+    cursor: pointer;
+}
+.corps-de-texte  {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: auto;
+    height: 300px;    
+    margin-left: 60px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.chiffre {
+    font-size: 28px;
+    letter-spacing: 5px;
+    color: rgba(71,73,81);
+    font-weight: bold;
+    font-family: "Barlow Condensed";
+    margin-right: 20px;
+}
+.titre-corps-de-texte {
+    font-size: 56px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Bellefair";
+}
+.paragraphe-corps-de-texte {   
+    font-size: 18px;
+    line-height: 32px;
+    color: #d0d6f9;
+    font-weight: 400;
+    font-family: "Barlow";
+}
+.numero-rond {
+    font-size: 32px;
+    letter-spacing: 2px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Bellefair";
+    text-align: center;
+}
+.technologie {
+    font-size: 16px;
+    letter-spacing: 3px;
+    color: #d0d6f9;
+    font-weight: 400;
+    font-family: "Barlow Condensed";
+}
+.vehicule {
+    position: absolute;
+    right: 0;
+    bottom: 100px;
+}
+.rond-click  { 
+    background-color: white;
+}
+.chiffre-click {
+    color: black;
+}
+
+@media  (min-width: 720px) and (max-width: 1100px) {
+    header {
+        width: 96.5%;
+        margin-left: 3.5%;
+        margin-top: 0;
+        margin-bottom: 100px;
+    }
+    .element-header:nth-child(2) {
+        display: none;
+    }
+    .element-header:nth-child(3) {
+        width: 90%;
+        margin-left: 10%;
+    }
+    .menu-header {
+        width: 100%;
+        margin: 0;
+        justify-content: space-between;
+    }
+    .header-section {
+        margin-bottom: -150px;
+    }
+    .container-element {
+        display: flex;
+        flex-direction: column;
+        flex-direction: column-reverse;
+        justify-content: center;
+    }
+    .sommaire {
+       flex-direction: row;
+       justify-content: space-between;
+       width: 300px;
+    }
+    .element:nth-child(1) {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+    }
+    .vehicule {
+        width: 100%;
+        height: 310px;
+        top: 280px;
+    }
+}
