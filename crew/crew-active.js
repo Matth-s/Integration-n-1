@@ -24,7 +24,7 @@ rond.forEach((item) => {
             grade.innerHTML ="MISSION SPECIALIST"
             personnage.innerHTML ="MARK SHUTTLEWORTH"
             paragraphe.innerHTML ="Mark Richard Shuttleworth is the founder and CEO of Canonical, the company behind the Linux-based Ubuntu operating system. Shuttleworth became the first South African to travel to space as a space touris"
-            image.src ='..assets/crew/image-mark-shuttleworth.png'
+            image.src ='../assets/crew/image-mark-shuttleworth.png'
             rond[0].classList.remove('rond-click');
             rond[1].classList.add('rond-click');
             rond[2].classList.remove('rond-click');
